@@ -1,0 +1,6 @@
+version: "3"
+tasks:
+  dev-cp:
+    cmds:
+      - |
+        scp -r ./themes/polite-minimal green-machine.ts:/srv/k8s-data/wordpress/politeauthority.io/wp-content/themes
